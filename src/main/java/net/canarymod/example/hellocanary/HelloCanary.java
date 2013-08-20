@@ -26,7 +26,7 @@ import net.canarymod.plugin.Plugin;
  */
 public class HelloCanary extends Plugin {
     // Get a nice logger, Logman automatically adds in the plugin prefix
-    private final Logman LOG = Logman.getLogman(this.getName());
+    private final Logman LOG = this.getLogman();
 
     @Override
     public boolean enable() {
