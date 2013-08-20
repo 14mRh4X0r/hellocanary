@@ -1,0 +1,4 @@
+main-class=net.canarymod.example.hellocanary.HelloCanary
+name=${pom.name}
+version=${pom.version}
+author=14mRh4X0r
